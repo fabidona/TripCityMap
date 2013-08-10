@@ -46,5 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BusinnessLayer\EmptyClass.cs" />
+    <Compile Include="DataAccessLayer\EmptyClass.cs" />
+    <Compile Include="DataLayer\EmptyClass.cs" />
   </ItemGroup>
 </Project>
