@@ -1,11 +1,8 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TripCityMap.Core\DataLayer\EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TripCityMap.Core/DataLayer/PoiCategory.cs">
     <Files>
-      <File FileName="TripCityMap.Android\MainActivity.cs" Line="10" Column="2" />
-      <File FileName="TripCityMap.Core\BusinnessLayer\EmptyClass.cs" Line="1" Column="1" />
-      <File FileName="TripCityMap.Core\DataAccessLayer\EmptyClass.cs" Line="1" Column="1" />
-      <File FileName="TripCityMap.Core\DataLayer\EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="TripCityMap.Core/DataLayer/PoiCategory.cs" Line="7" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
