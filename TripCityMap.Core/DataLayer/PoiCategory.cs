@@ -1,11 +1,21 @@
 using System;
 
-namespace TripCityMap.Core
+namespace TripCityMap.Core.DataLayer
 {
-	public class EmptyClass
+	public class PoiCategory
 	{
-		public EmptyClass ()
+
+		public int Id {
+			get;
+			set;
+		}
+		public string Name {
+			get;
+			set;
+		}
+		public PoiCategory ()
 		{
+
 		}
 	}
 }
