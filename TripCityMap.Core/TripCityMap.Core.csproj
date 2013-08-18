@@ -9,6 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>TripCityMap.Core</RootNamespace>
     <AssemblyName>TripCityMap.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,11 +44,16 @@
     <Folder Include="DataAccessLayer\" />
     <Folder Include="DataLayer\" />
     <Folder Include="Properties\" />
+    <Folder Include="ServiceLayer\" />
+    <Folder Include="ServiceAccessLayer\" />
+    <Folder Include="BusinnessLayer\Model\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BusinnessLayer\EmptyClass.cs" />
-    <Compile Include="DataAccessLayer\EmptyClass.cs" />
-    <Compile Include="DataLayer\PoiCategory.cs" />
+    <Compile Include="BusinnessLayer\Model\Address.cs" />
+    <Compile Include="BusinnessLayer\Model\Photo.cs" />
+    <Compile Include="BusinnessLayer\Model\PhotoGallery.cs" />
+    <Compile Include="BusinnessLayer\Model\Poi.cs" />
+    <Compile Include="BusinnessLayer\Model\PoiCategory.cs" />
   </ItemGroup>
 </Project>
