@@ -7,7 +7,7 @@ namespace TripCityMap.Core.Model
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
-		public string Descrption { get; set; }
+		public string Description { get; set; }
 		public string IconUrl { get; set; }
 		public string IconMarkerUrl { get; set; }
 		public string IconRoundUrl { get; set; }

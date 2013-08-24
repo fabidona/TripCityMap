@@ -6,10 +6,10 @@
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{03C985D4-C93C-4880-B89B-381C2DF8E434}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>TripCityMap.Core</RootNamespace>
     <AssemblyName>TripCityMap.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +38,15 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="ServiceStack.Common.MonoTouch">
+      <HintPath>bin\Debug\ServiceStack.Common.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces.MonoTouch">
+      <HintPath>bin\Debug\ServiceStack.Interfaces.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text.MonoTouch">
+      <HintPath>bin\Debug\ServiceStack.Text.MonoTouch.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BusinnessLayer\" />
@@ -55,5 +64,6 @@
     <Compile Include="BusinnessLayer\Model\PhotoGallery.cs" />
     <Compile Include="BusinnessLayer\Model\Poi.cs" />
     <Compile Include="BusinnessLayer\Model\PoiCategory.cs" />
+    <Compile Include="ServiceAccessLayer\TCMServiceManager.cs" />
   </ItemGroup>
 </Project>

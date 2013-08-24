@@ -1,26 +1,34 @@
 ﻿<Properties GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TripCityMap.Core/DataLayer/PoiCategory.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TripCityMap.Ios/AppDelegate.cs">
     <Files>
-      <File FileName="TripCityMap.Core/DataLayer/Poi.cs" Line="24" Column="35" />
-      <File FileName="TripCityMap.Core/DataLayer/Address.cs" Line="7" Column="3" />
-      <File FileName="TripCityMap.Core/DataLayer/PoiCategory.cs" Line="7" Column="3" />
-      <File FileName="TripCityMap.Core/DataLayer/Photo.cs" Line="9" Column="20" />
+      <File FileName="TripCityMap.Core/BusinnessLayer/Model/Poi.cs" Line="1" Column="1" />
+      <File FileName="TripCityMap.Core/ServiceAccessLayer/TCMServiceManager.cs" Line="29" Column="12" />
+      <File FileName="TripCityMap.Ios/AppDelegate.cs" Line="27" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="TripCityMap.Core" expanded="True">
-            <Node name="DataLayer" expanded="True">
-              <Node name="PoiCategory.cs" selected="True" />
+          <Node name="TripCityMap.Core" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+            <Node name="BusinnessLayer" expanded="True">
+              <Node name="Model" expanded="True" />
             </Node>
+            <Node name="ServiceAccessLayer" expanded="True" />
+          </Node>
+          <Node name="TripCityMap.Ios" expanded="True">
+            <Node name="References" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/fabiodonatelli/Progetti/TripCityMap/XamarinClient/TripCityMap/TripCityMap.Core/BusinnessLayer/ClientTest.cs" line="14" column="50" />
+      <Breakpoint file="/Users/fabiodonatelli/Progetti/TripCityMap/XamarinClient/TripCityMap/TripCityMap.Core/ServiceAccessLayer/TCMServiceManager.cs" line="43" column="1" />
+      <Breakpoint file="/Users/fabiodonatelli/Progetti/TripCityMap/XamarinClient/TripCityMap/TripCityMap.Ios/AppDelegate.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TripCityMap.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />

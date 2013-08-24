@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using TripCityMap.Core.Service;
+using TripCityMap.Core.Model;
+
 
 namespace TripCityMap.Ios
 {
@@ -28,7 +31,10 @@ namespace TripCityMap.Ios
 			
 			// If you have defined a root view controller, set it here:
 			// window.RootViewController = myViewController;
-			
+
+			var client = TCMServiceManager.Instance;
+			var cats = client.GetPoiCategories (@"parent=0&owner=2&whitchildren=true&client=true");
+
 			// make the window visible
 			window.MakeKeyAndVisible ();
 			
